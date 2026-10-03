@@ -27,7 +27,7 @@ public class find_missing_no {
             arr[i]=sc.nextInt();
         }
         List<Integer> l=missing(n, arr);
-        if(l.size()==0){
+        if(l.isEmpty()){
             System.out.println("No elements are missing");
         }
         else{
